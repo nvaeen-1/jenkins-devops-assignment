@@ -1,0 +1,123 @@
+Script started on 2026-10-19 23:47:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="173" LINES="41"]
+]0;faizal@faizals-msi:~/Project/devops]3008;start=ba1a4b1c-7c6d-422a-8603-29b86343b99b;type=shell;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\]666;vte.shell.postexec=0\]666;vte.shell.precmd!\]7;file://faizals-msi/home/faizal/Project/devops\[?2004h]133;D;0\]133;A\[0m[1m[32mfaizal@faizals-msi[0m:[1m[32m~/Project/devops[0m$ ]133;B\[7mecho "===== Student Git Assignment Evidence ====="[27m
+[7mdate[27m
+[7mpwd[27m
+
+[7mecho "===== Git Status ====="[27m
+[7mgit status[27m
+
+[7mecho "===== Branches ====="[27m
+[7mgit branch -a[27m
+
+[7mecho "===== Commit History ====="[27m
+[7mgit log --oneline --graph --decorate --all[27m
+
+[7mecho "===== Remotes ====="[27m
+[7mgit remote -v[27m
+
+[7mecho "===== Latest Commit ====="[27m
+[7mgit show --stat --oneline HEAD[27m
+
+[7mecho "===== Python Tests ====="[27m
+[7mpython3 -m unittest discover -s tests -v[27m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Aecho "===== Student Git Assignment Evidence ====="
+date
+pwd
+
+echo "===== Git Status ====="
+git status
+
+echo "===== Branches ====="
+git branch -a
+
+echo "===== Commit History ====="
+git log --oneline --graph --decorate --all
+
+echo "===== Remotes ====="
+git remote -v
+
+echo "===== Latest Commit ====="
+git show --stat --oneline HEAD
+
+echo "===== Python Tests ====="
+python3 -m unittest discover -s tests -v
+[?2004l]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Student Git Assignment Evidence =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\Monday 19 October 2026 11:47:35 PM IST
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\/home/faizal/Project/devops
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Git Status =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCommit[m
+	[31mFETCH_HEAD[m
+	[31mMerge[m
+	[31mPull[m
+	[31mPush[m
+	[31mReview[m
+	[31mgit_execution.log[m
+	[31mmain[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Branches =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\[?1h=  bugfix-23BCS103[m[m
+  feature-23BCS103[m[m
+* [32mmain[m[m
+  [31mremotes/origin/feature-23BCS103[m[m
+  [31mremotes/origin/main[m[m
+[K[?1l>]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Commit History =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\[?1h=* [33m08b1ee5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Update application banner for CI demonstration[m
+*   [33m4ac1031[m Merge branch 'main' of https://github.com/nvaeen-1/jenkins-devops-assignment[m
+[32m|[m[33m\[m  [m
+[32m|[m *   [33m1447675[m Merge pull request #1 from nvaeen-1/feature-23BCS103[m
+[32m|[m [34m|[m[35m\[m  [m
+* [34m|[m [35m|[m [33mfedc4c5[m Add Jenkins CI pipeline[m
+* [34m|[m [35m|[m   [33m3904884[m Merge branch 'bugfix-23BCS103'[m
+[35m|[m[1;31m\[m [34m\[m [35m\[m  [m
+[35m|[m [1;31m|[m[35m_[m[34m|[m[35m/[m  [m
+[35m|[m[35m/[m[1;31m|[m [34m|[m   [m
+[35m|[m * [34m|[m [33m91bca08[m[33m ([m[1;32mbugfix-23BCS103[m[33m)[m Fix test imports and add negative value coverage[m
+[35m|[m [34m|[m[34m/[m  [m
+* [34m/[m [33m0bac8e8[m[33m ([m[1;31morigin/feature-23BCS103[m[33m, [m[1;32mfeature-23BCS103[m[33m)[m Add calculator usage instructions[m
+[34m|[m[34m/[m  [m
+* [33mbf68bfc[m Add Python calculator and unit tests[m
+[K[?1l>]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Remotes =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\origin	https://github.com/nvaeen-1/jenkins-devops-assignment.git (fetch)
+origin	https://github.com/nvaeen-1/jenkins-devops-assignment.git (push)
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Latest Commit =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\[?1h=[33m08b1ee5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Update application banner for CI demonstration[m
+ src/app.py | 2 [32m+[m[31m-[m[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)[m
+[K[?1l>]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\===== Python Tests =====
+]133;C\]666;vte.shell.preexec!\]3008;start=9e6f87a6-d1ad-423c-be75-0c539db665d9;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\test_add_negative_numbers (test_app.TestApp.test_add_negative_numbers) ... [32mok[0m
+test_add_positive_numbers (test_app.TestApp.test_add_positive_numbers) ... [32mok[0m
+test_add_zero (test_app.TestApp.test_add_zero) ... [32mok[0m
+test_decimal_numbers (test_negative_values.TestAdditionalValues.test_decimal_numbers) ... [32mok[0m
+test_negative_and_positive_numbers (test_negative_values.TestAdditionalValues.test_negative_and_positive_numbers) ... [32mok[0m
+test_two_negative_numbers (test_negative_values.TestAdditionalValues.test_two_negative_numbers) ... [32mok[0m
+test_zero_and_negative_number (test_negative_values.TestAdditionalValues.test_zero_and_negative_number) ... [32mok[0m
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+[32mOK[0m
+]0;faizal@faizals-msi:~/Project/devops]3008;end=9e6f87a6-d1ad-423c-be75-0c539db665d9;exit=success\]3008;start=ba1a4b1c-7c6d-422a-8603-29b86343b99b;type=shell;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\]666;vte.shell.postexec=0\]666;vte.shell.precmd!\]7;file://faizals-msi/home/faizal/Project/devops\[?2004h]133;D;0\]133;A\[0m[1m[32mfaizal@faizals-msi[0m:[1m[32m~/Project/devops[0m$ ]133;B\[7mgit log --oneline --graph --decorate --all[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log --oneline --graph --decorate --all
+[?2004l]133;C\]666;vte.shell.preexec!\]3008;start=f96efd65-6775-4d18-8a90-7f56d76b4852;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\[?1h=* [33m08b1ee5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Update application banner for CI demonstration[m
+*   [33m4ac1031[m Merge branch 'main' of https://github.com/nvaeen-1/jenkins-devops-assignment[m
+[32m|[m[33m\[m  [m
+[32m|[m *   [33m1447675[m Merge pull request #1 from nvaeen-1/feature-23BCS103[m
+[32m|[m [34m|[m[35m\[m  [m
+* [34m|[m [35m|[m [33mfedc4c5[m Add Jenkins CI pipeline[m
+* [34m|[m [35m|[m   [33m3904884[m Merge branch 'bugfix-23BCS103'[m
+[35m|[m[1;31m\[m [34m\[m [35m\[m  [m
+[35m|[m [1;31m|[m[35m_[m[34m|[m[35m/[m  [m
+[35m|[m[35m/[m[1;31m|[m [34m|[m   [m
+[35m|[m * [34m|[m [33m91bca08[m[33m ([m[1;32mbugfix-23BCS103[m[33m)[m Fix test imports and add negative value coverage[m
+[35m|[m [34m|[m[34m/[m  [m
+* [34m/[m [33m0bac8e8[m[33m ([m[1;31morigin/feature-23BCS103[m[33m, [m[1;32mfeature-23BCS103[m[33m)[m Add calculator usage instructions[m
+[34m|[m[34m/[m  [m
+* [33mbf68bfc[m Add Python calculator and unit tests[m
+[K[?1l>]0;faizal@faizals-msi:~/Project/devops]3008;end=f96efd65-6775-4d18-8a90-7f56d76b4852;exit=success\]3008;start=ba1a4b1c-7c6d-422a-8603-29b86343b99b;type=shell;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\]666;vte.shell.postexec=0\]666;vte.shell.precmd!\]7;file://faizals-msi/home/faizal/Project/devops\[?2004h]133;D;0\]133;A\[0m[1m[32mfaizal@faizals-msi[0m:[1m[32m~/Project/devops[0m$ ]133;B\[7mexit[27mexit
+[?2004l]133;C\]666;vte.shell.preexec!\]3008;start=7e15bf62-b904-4265-9587-328609f59c77;type=command;machineid=22d12990ec1f426d8cdafcbd5fa1795b;user=faizal;hostname=faizals-msi;bootid=0486dc53-0e75-4806-b294-f35a53f5762a;pid=40121;cwd=/home/faizal/Project/devops\exit
+
+Script done on 2026-10-19 23:47:45+05:30 [COMMAND_EXIT_CODE="0"]
